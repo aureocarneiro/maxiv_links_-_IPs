@@ -18,7 +18,7 @@ while(1):
     value_buffer_grating.append(encoder_mirror.getAttribute('').value)
 
     if value_buffer_mirror[-1] == value_buffer_mirror[-2]:
-        print('Same value for mirror encoder!' The value is:    {}'.format(value_buffer_mirror[-1]))
+        print('Same value for mirror encoder!  The value is:    {}'.format(value_buffer_mirror[-1]))
     if value_buffer_grating[-1] == value_buffer_grating[-2]:
         print('Same value for grating encoder! The value is:    {}'.format(value_buffer_grating[-1]))
     if len(value_buffer_mirror) > sample:
