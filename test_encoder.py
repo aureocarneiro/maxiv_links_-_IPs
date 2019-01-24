@@ -22,7 +22,7 @@ while(1):
     if value_buffer_grating[-1] == value_buffer_grating[-2]:
         print('Same value for grating encoder! The value is:    {}'.format(value_buffer_grating[-1]))
     if len(value_buffer_mirror) > sample:
-        value_buffer_mirror=value_buffer_mirror[1:]
+        value_buffer_mirror = value_buffer_mirror[1:]
     if len(value_buffer_grating) > sample:
         value_budder_grating = value_buffer_grating[1:]
 
